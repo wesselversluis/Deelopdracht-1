@@ -1,0 +1,115 @@
+html {
+   background-color: #23323C;
+}
+
+body {
+    max-width: 40em;
+    margin: auto;
+    margin-bottom: 4em;
+    font-family: 'Lato';
+    background-color: #F2F2F2;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.3em;
+    padding-bottom: 1em;
+}
+
+legend {
+    font-size: 1.5em;
+}
+
+fieldset {
+    border: 2px solid #D8D8D8;
+    margin-bottom: 2em;
+}
+
+fieldset:nth-child(3) {
+    display: none;
+}
+
+fieldset:nth-child(4) {
+    display: none;
+}
+
+label {
+    color: #6C7A89;
+}
+
+input {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+    max-width: 25em;
+    height: 3em;
+    background-color: white;
+    border-radius: 0.3em;
+    border: 2px solid white;
+    font-family: 'Lato';
+    padding-left: 0.4em;
+}
+
+input[type="radio"] {
+    display: inline;
+    width: 2em;
+    height: 2em;
+    vertical-align: sub;
+}
+
+input[type="radio"]:last-child {
+    margin-left: 2em;
+}
+
+input[type="submit"] {
+    margin: auto;
+    background-color: #2ECC71;
+    border: none;
+    font-size: 1.3em;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    color: white;
+    border-radius: 0;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    letter-spacing: 0.2em;
+    padding-right: 0.2em;
+}
+
+input[type="submit"]:hover {
+    background-color: #26A65B;
+}
+
+textarea {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 25em;
+    border-radius: 0.3em;
+    border: 2px solid white;
+    height: 6em;
+}
+
+select {
+    display: block;   
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #D8D8D8;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    letter-spacing: 0.2em;
+    padding-right: 0.2em;
+    font-size: 2em;
+}
+
+a {
+    color: #2ECC71;
+    text-decoration: none;
+}
+
+

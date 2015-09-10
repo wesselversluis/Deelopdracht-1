@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulier CMD</title>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href="style.css" type="text/css" rel="stylesheet"/>
+<script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <article>
+            <header>
+                <h1>Aanmelden</h1>
+            </header>
+            <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p> 
+            <p><i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</i></p>
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.</p>
+            <p>Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.</p>
+            
+            <form>
+                <fieldset>
+                    <legend>Contactgegevens</legend>
+                    
+                    <label for="name">Naam</label>
+                    <input type="text" id="name" autofocus required>
+                    
+                    <label for="company">Bedrijf</label>
+                    <input type="text" id="company" required>
+                    
+                    <label for="address">Adres</label>
+                    <input type="text" id="address">
+                    
+                    <label for="zip">Postcode</label>
+                    <input type="text" placeholder="1234 AB" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="zip">
+                    
+                    <label for="city">Plaats</label>
+                    <input type="text" id="city">
+                    
+                    <label for="phonenumber">Telefoon</label>
+                    <input type="tel" id="phonenumber">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="example@email.com">
+                    
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Ik wil mij aanmelden:</legend>
+                    
+                    <input type="radio" name="option" value="project" id="project">Voor een project
+                    <input type="radio" name="option" value="stage" id="stage">Als stagebedrijf
+                    
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Project</legend>
+                    
+                    <label for="title">Titel</label>
+                    <input type="text" id="title">
+                    
+                    <label for="subject">Opdrachtomschrijving</label>
+                    <textarea name="subject" id="subject">
+                    </textarea>
+                    
+                    <label for="audience">Doelgroepomschrijving</label>
+                    <textarea name="audience" id="audience">
+                    </textarea>
+                    
+                    <label for="reason">Doelstelling/intentie van het project</label>
+                    <textarea name="reason" id="reason">
+                    </textarea>
+                    
+                    <label for="duration">Looptijd</label>
+                    <input type="range" id="duration" name="points" min="1" max="10">
+                    
+                    <label for="deadline">Deadline</label>
+                    <input type="month" id="deadline">
+                    
+                    <label for="geschikt">Geschikt voor:</label> 
+                        <select id="geschikt">
+                            <option value="1">1. Eerstejaars studenten</option>
+                            <option value="2">2. Tweedejaars studenten</option>
+                            <option value="3">3. Derdejaars studenten</option>
+                            <option value="4">4. Afstudeerstudenten</option>
+                            <option value="5">5. Onbekend</option>
+                        </select>
+                    
+                    <label for="explanation">Opmerking</label>
+                    <textarea name="opmerking" id="explanation">
+                    </textarea>
+                   
+                    <input type="submit"> 
+                 </fieldset>
+                
+        
+                <fieldset>
+                    <legend>Stage</legend>
+                    
+                    <label for="stagegeschikt">Geschikt voor:</label> 
+                    <select id="stagegeschikt">
+                        <option value="1">1. Tweedejaars studenten</option>
+                        <option value="2">2. Afstudeerstudenten</option>
+                        <option value="3">3. Onbekend</option>
+                        </select>
+                    
+                    <label for="howlong">Hoe lang is de stage?</label>
+                    <select id="howlong">
+                        <option value="10">10 weken</option>
+                        <option value="20">20 weken</option>
+                    </select>
+                    
+                    <label for="start">Begin datum</label>
+                    <input type="month" id="start">
+                    
+                    <label for="werkzaamheden">Beschrijving werkzaamheden</label>
+                    <textarea name="werkzaamheden" id="werkzaamheden">
+                    </textarea>
+                    
+                    <h2>Beschrijving stagebedrijf</h2>
+                    
+                    <label for="companyname">Bedrijfsnaam</label>
+                    <input type="text" id="companyname">
+                    
+                    <label for="companyaddress">Adres</label>
+                    <input type="text" id="companyaddress">
+                    
+                    <label for="companyzip">Postcode</label>
+                    <input type="text" placeholder="1234 AB" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="companyzip">
+                    
+                    <label for="companycity">Plaats</label>
+                    <input type="text" id="companycity">
+                    
+                    <label for="companysector">Sector</label>
+                    <input type="text" id="companysector">
+                    
+                    <label for="companycore">Core business</label>
+                    <input type="text" id="companycore">
+                    
+                    <label for="internexplanation">Opmerking</label>
+                    <textarea name="opmerking" id="internexplanation">
+                    </textarea>
+                    
+                    <input type="submit">
+                    </fieldset>
+    
+            </form>
+        
+        </article>
+    </main>
+</body>
+</html>
